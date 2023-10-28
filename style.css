@@ -1,0 +1,43 @@
+@media all and (max-width:673px)
+{
+   .container-fluid .nav 
+   {
+    display: none;
+   }
+
+
+}
+
+.container-fluid .nav li a 
+{
+   padding: 10px;
+   font-weight: bold;
+   font-size: 20px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container-fluid >a
+{
+   letter-spacing: 6px;
+  text-transform: uppercase;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container-fluid .nav li a:hover
+{
+   background-color: aquamarine;
+}
+
+footer .container
+{
+   float: left;
+}
+footer p 
+{
+   float: right;
+}
+footer:after
+{
+   content: '';
+   display: block;
+   clear: both;
+}
